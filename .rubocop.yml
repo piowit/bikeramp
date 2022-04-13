@@ -1,0 +1,18 @@
+Style/Documentation:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Exclude:
+    - 'bin/*'
+
+Metrics/MethodLength:
+  Exclude:
+    - 'bin/*'
+
+Metrics/PerceivedComplexity:
+  Exclude:
+    - 'bin/*'
+    
+Layout/LineLength:
+  Exclude:
+    - 'bin/*'
